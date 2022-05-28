@@ -1,0 +1,62 @@
+@import "styles/variables";
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  /*  border: 1px solid purple; */
+}
+
+.header {
+  color: $color-primary;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 1.4em;
+  margin-top: 1em;
+  text-shadow: 0 0 0.04em $color-secondary;
+  z-index: 99;
+  opacity: 1;
+  font-size: 4.2rem;
+}
+
+.message {
+  color: $color-secondary;
+  text-shadow: 0 0 0.2em $color-primary;
+  font-size: 1.5rem;
+  text-align: right;
+  margin-right: 1em;
+}
+.footer {
+  height: 1em;
+}
+
+.background {
+  position: fixed;
+  margin: 0;
+  top: 0em;
+  background-image: url("https://s3.eu-west-1.amazonaws.com/filestore.molitio.org/ui-molitio-com/pexels-akil-mazumder-1072824.jpg");
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: -90;
+  opacity: 1;
+}
+
+.masklayer {
+  position: fixed;
+  top: 0em;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: -90;
+  opacity: 0.8;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.2) 60%, rgba(164, 245, 200, 0.6) 100%);
+}

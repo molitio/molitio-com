@@ -1,7 +1,23 @@
 {
   "name": "ui-molitio-com",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "author": "Peter Koller",
+  "description": "UI for molitio.com",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "directory": "ui-molitio-com",
+    "url": "git@github.com:molitio/molitio-com.git"
+  },
+  "keywords": [
+    "molitio",
+    "ui-core",
+    "ui-molitio-com"
+  ],
+  "bugs": {
+    "url": "https://github.com/molitio/molitio-core/issues"
+  },
+  "homepage": "https://github.com/molitio/molitio-core#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +28,8 @@
     "@molitio/ui-core": "^0.12.0-alpha.0",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "sass": "^1.52.1"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
